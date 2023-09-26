@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>megrendeles</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Megrendelés részletek</h1>
+        <h2>Rendelés száma: 2</h2>
+        <table border="1">
+            <thead>
+                <tr style="background-color: rgba(0, 0, 0, 0.651);" id="xyz" onclick="Kijelol()">
+                    <th colspan="2">Termék neve</th>
+                    <th>Mennyiség</th>
+                    <th>Nettó ár</th>
+                    <th>ÁFA százalék</th>
+                    <th>Bruttó ár</th>
+                </tr>
+                <tr onclick="Kijelol()" id="xyz">
+                    <th><img src="polo.png" alt=""></th>
+                    <th>Póló L-es</th>
+                    <th>2 db</th>
+                    <th>1495 Ft</th>
+                    <th>27%</th>
+                    <th>3798 Ft</th>
+                </tr>
+                <tr onclick="Kijelol()" id="xyz">
+                    <th><img src="polo.png" alt=""></th>
+                    <th>Póló L-es</th>
+                    <th>2 db</th>
+                    <th>1495 Ft</th>
+                    <th>27%</th>
+                    <th>3798 Ft</th>
+                </tr>
+                <tr onclick="Kijelol()" id="xyz">
+                    <th><img src="bogre.png" alt=""></th>
+                    <th>Bögre</th>
+                    <th>1 db</th>
+                    <th>1567 Ft</th>
+                    <th>27%</th>
+                    <th>1990 Ft</th>
+                </tr>
+                <tr onclick="Kijelol()" id="xyz">
+                    <th><img src="sapka.png" alt=""></th>
+                    <th>Baseball sapka</th>
+                    <th>1 db</th>
+                    <th>3142 Ft</th>
+                    <th>27%</th>
+                    <th>3990 Ft</th>
+                </tr>
+                <tr style="background-color: rgba(0, 0, 0, 0.651);">
+                    <th colspan="5" style="text-align: right;">Összesen:</th>
+                    <th>13576 Ft</th>
+                </tr>
+            </thead>
+        </table>
+        <p style="text-align: justify;">Rendelés állapota: Futárnak átadva</p>
+    </div>
+</body>
+</html>
